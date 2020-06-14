@@ -1,0 +1,63 @@
+html,body {
+    width: 100%;
+    background-color: #E6E6E6;
+}
+
+
+.blue-conteiner {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  animation-name: example;
+  animation-duration: 4s;
+  font-size: 90px;
+
+ animation-iteration-count: infinite;
+  
+  border: 1px solid blue;
+  float: right;
+  transform: translate(-50%, -50%);
+  transition: all 0.2s linear 0.2s;
+  margin-right: 250px;
+  margin-top: 100px;
+}
+
+
+@keyframes example {
+  0%   {background: red; transform:  translate(-50%, -50%) rotate(0deg);}
+  25%  {background: blue; transform:  translate(-50%, -50%) rotate(45deg);}
+  50%  {background: yellow;transform:  translate(-50%, -50%) rotate(0deg);}
+  75%  {background: green; transform:  translate(-50%, -50%) rotate(360deg);}
+  100% {background: red; transform:  translate(-50%, -50%) rotate(0deg);}
+}
+
+.nav-li {
+	display: inline-block;
+	margin-right: 100px;
+	margin-bottom: 20px;
+	color: #3D58A6;
+	font-size: 24px;
+	padding: 20px;
+	
+}
+
+.logo {
+	background-color: black;
+	size:30px;
+	float: left;
+}
+
+.featured-boxes{
+	float: left;
+  font-size: 20px;
+}
+.uni{
+  transform: translate(-50%, -50%) rotate(45deg);
+ text-transform: uppercase;
+  transition: all 0.2s linear 2s;
+}
+
+.foto {
+  margin-top:50px;
+  margin-left:50px;
+}
